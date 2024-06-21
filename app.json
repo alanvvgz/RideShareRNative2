@@ -1,0 +1,126 @@
+{
+  "expo": {
+    "name": "RideShare",
+    "slug": "ride-share",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "description": "O seu aplicativo de carona",
+    "lang": "pt",
+    "orientation": "portrait",
+    "background_color": "#191a18",
+    "theme": {
+      "colors": {
+        "primary": "#ff9600"
+      }
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.rideshare"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.example.rideshare"
+    },
+    "locales": {
+      "pt": {
+        "name": "RideShare",
+        "description": "O seu aplicativo de carona"
+      }
+    },
+    "screenshots": [
+      {
+        "src": "./assets/screenshots/ca1.jpeg",
+        "sizes": "325x704",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/screenshots/ca2.jpeg",
+        "sizes": "323x707",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/screenshots/ca3.jpeg",
+        "sizes": "324x708",
+        "type": "image/png"
+      }
+    ],
+    "assets": [
+      {
+        "src": "./assets/icons/20.png",
+        "sizes": "20x20",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/144-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/48-48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "./assets/icons/192-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "./assets/icons/40.png",
+        "sizes": "40x40",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/100.png",
+        "sizes": "100x100",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/80.png",
+        "sizes": "80x80",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/512-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/icons/1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ]
+  }
+}
